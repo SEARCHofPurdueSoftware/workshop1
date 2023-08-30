@@ -51,6 +51,12 @@ EARTH_ESC_VEL = None # meters per second
 # - potential energy of the system goes up (but down in magnitude,
 # - remember that negative sign) and the kinetic energy goes down.
 
+r_earth_meters = R_EARTH * 1000
+d_sun_earth_meters = D_SUN_EARTH * 1000
+
+F_SUN_EARTH = G_CONST * M_EARTH * M_SUN / (d_sun_earth_meters ** 2)
+F_ROCKET_EARTH = G_CONST * M_EARTH * M_SATURN_V_ROCKET / (r_earth_meters ** 2)
+EARTH_ESC_VEL = (2 * G_CONST * M_EARTH / r_earth_meters) ** (1 / 2)
 
 #*-------------------------*#
 #*-------------------------*#
