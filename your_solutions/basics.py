@@ -13,9 +13,9 @@ D_SUN_EARTH = 150e6 # km
 #*-------------------------*#
 #*-----TO BE CALCULATED----*#
 #*-------------------------*#
-F_SUN_EARTH = None # Newtons
-F_ROCKET_EARTH = None # Newtons
-EARTH_ESC_VEL = None # meters per second
+F_SUN_EARTH = 0 # Newtons
+F_ROCKET_EARTH = 0 # Newtons
+EARTH_ESC_VEL = 0 # meters per second
 #*-------------------------*#
 #*-------------------------*#
 #*-------------------------*#
