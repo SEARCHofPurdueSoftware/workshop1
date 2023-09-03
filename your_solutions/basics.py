@@ -1,4 +1,4 @@
-# TO-DO: 
+# Some useful constants...
 
 G_CONST = 6.67e-11 # N * m^2 / kg^2
 
